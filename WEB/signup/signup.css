@@ -1,0 +1,107 @@
+body
+{
+background-image: url(Fuji.jpg);
+background-repeat: no-repeat;
+background-size: cover; /* Optional: ensures the image covers the whole background */
+background-attachment: fixed; /* This is the key property */
+background-position: center; /* Optional: centers the image */
+}
+
+
+.Details
+{
+    /*This Section is for the POSITION */
+  position: relative;
+  left: 20%;
+   transform: translateY(30%);
+
+  width: 60vw;
+  height: 50vh;
+
+  /*This Section is for  TEXT DESIGN*/
+  font-size: small;
+  font-family:'Courier New', Courier, monospace;
+  text-align: center;
+ 
+  color: black;
+
+
+ }
+
+ .Pro
+ {
+  font-style: bold;
+  font-size: x-large;
+  color: black;
+  border-style: dashed;
+  text-align: center;
+ }
+ 
+
+.Details, .DBirth
+{
+ color: aliceblue;
+}
+
+ 
+.Media
+
+{
+  position: relative; 
+  top: 60;
+  transform: translateY(-50%);
+  transform: translateX(50%);
+  width: 50%;
+  height: 5vh;
+  text-align: center;
+
+  }
+
+
+.FImage
+{
+ 
+
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+
+  border-color: white;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 50%;
+   margin-bottom: 0%;
+
+}
+
+
+.GImage
+{
+
+  width: 40x;
+  height: 40px;
+  cursor: pointer;
+  border-color: white;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 50%;
+  
+  margin-bottom: 0%;
+}
+
+.Submit
+{
+ color: black;
+ 
+}
+
+
+.Back
+{
+ color: aliceblue;
+ text-decoration: none;
+ font-size: x-large;
+ font-family: 'Courier New', Courier, monospace;
+ font-style: bold;
+  cursor: pointe;
+}
