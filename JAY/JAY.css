@@ -1,113 +1,33 @@
-body {
-    margin: 0;
-    font-family: Arial;
-    background: #0f172a;
-    color: white;
+<style>
+* {margin:0;padding:0;box-sizing:border-box;font-family:Arial, sans-serif;}
+body {background:#0b1a2d;color:white;}
+
+.container {max-width:1100px;margin:auto;padding:20px;}
+
+.hero {text-align:center;padding:60px 20px;}
+.hero h1 {font-size:32px;}
+.hero p {margin:10px 0 20px;font-size:16px;color:#ccc;}
+.hero button {background:#00aaff;border:none;padding:12px 25px;border-radius:8px;color:white;cursor:pointer;}
+
+.services {display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-top:30px;}
+.card {background:#14263d;padding:15px;border-radius:10px;text-align:center;}
+
+.section-title {text-align:center;margin:40px 0 20px;font-size:20px;}
+
+.portfolio {display:flex;overflow-x:auto;gap:15px;padding-bottom:10px;scroll-snap-type:x mandatory;}
+.portfolio::-webkit-scrollbar {display:none;}
+
+.port-card {min-width:250px;background:#fff;color:#000;border-radius:12px;padding:10px;scroll-snap-align:center;}
+.port-card img {width:100%;border-radius:10px;}
+
+.tools {display:flex;flex-wrap:wrap;justify-content:center;gap:15px;margin-top:20px;}
+.tools img {width:60px;height:60px;object-fit:contain;background:white;padding:5px;border-radius:10px;}
+
+.contact {text-align:center;margin-top:40px;}
+.contact a {color:#00aaff;text-decoration:none;}
+
+/* MOBILE */
+@media(max-width:600px){
+.hero h1{font-size:24px;}
 }
-header {
-    text-align: center;
-    padding: 80px 20px;
-}
-h1 { font-size: 40px; }
-
-
-
-.Subbody
-{
-
- display:flex;
- justify-content: space-between;
- padding: 60PX;
- align-items: center;
- text-align: center;
-}
-.Subbody .section1:hover
-{
-    background-color: #38bdf8;
-}
-
-
-
-.section0
-{
-    padding: 60px 20px;
-    text-align: center;
-     
-    align-items: center;
-    
-}
-
-.section00
-{  
-    text-align: center;
-    
-    align-items: center;
-}
-.section1
-{   
-   
-}
-
-
-.section2
-{   
-    
-   
-}
-
-
-.section3
-{   
-    
-   
-  
-}
-.section4
-{
-    display: flex;
-    padding: 60px 20px;
-    text-align: center;
-    justify-content:space-evenly;
-    align-items: center;
-}
-
-.section5
-{
-padding: 60px 20px;
-    text-align: center;
-     
-    align-items: center;
-}
-.pic0{
-    width: 350px;
-    height: 300px;
-}
-
-.a
-{
-text-decoration: none;
-}
-
-.pic1
-{
-    width: 150px;
-    height: 100px;
-}
-
-.card {
-    background: #1e293b;
-    margin: 15px;
-    padding: 20px;
-    border-radius: 15px;
-    display: inline-block;
-    width: 250px;
-}
-
-
-button {
-    padding: 10px 20px;
-    background: #38bdf8;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-}
+</style>
