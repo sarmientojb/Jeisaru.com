@@ -30,7 +30,11 @@ background-size: cover;
     align-items: center;
     text-align:center;
     padding:60px 20px;
-    width: 44%;;
+    padding:60px 20px;
+    width: 20%, 100%; /* Or any width like 100% */
+ 
+    object-fit: cover; /* Crops the video to fill the square */
+}
 }
 
 
