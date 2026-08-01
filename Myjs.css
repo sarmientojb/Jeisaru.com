@@ -1,0 +1,15 @@
+body{
+  text-align: center;
+  background-color:magenta;
+}
+
+dialog {
+  text-align: center; /* This perfectly centers your text */
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+dialog button {
+  margin-top: 10px;
+}
