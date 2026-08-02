@@ -68,7 +68,7 @@ border-width:10px; transform : translate(-50%,-50%); background: #5a0202; width:
 .About{text-decoration: none;}
 
 
-@media only screen and (max-width: 1080px) {.body{ cursor: pointer; width: 100%;} .Log {width: 100%;} .LogBox{width: 50%; height:50%; }
+@media only screen and (max-width: 760px) {.body{ cursor: pointer; width: 100%;} .Log {width: 100%;} .LogBox{width: 50%; height:50%; }
 .Foot{width: 90%;display:grid; grid-template-columns: repaet(3, 1fr); gap: 0%; margin:0%; padding: 0%; font-size: 10%;}
 
 .AboutBackground{position: fixed; cursor: pointer;  font-size: 10%; width: 35%;  left:12.5%; Top:55%; transform: translate(-25%, -25%);  border-radius: 5%;; padding: 2px;}
