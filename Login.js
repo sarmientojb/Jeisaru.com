@@ -35,7 +35,7 @@ print.innerHTML = '';
 
 
 // THIS IS FOR HOVER SIDE
-
+/*
 const hover = document.querySelector(".Hover1");
 const about = document.querySelector(".AboutBackground");
 
@@ -46,20 +46,6 @@ hover.addEventListener("mouseenter", () => {
 hover.addEventListener("mouseleave", () => {
     about.style.display = "none";
 });
-
 // Lets getb stared
 
-
-//LEAT talk
-
-const hoverss = document.querySelector(".Hover3");
-const aboutss = document.querySelector(".AboutBackground3");
-
-hoverss.addEventListener("mouseenter", () => {
-    aboutss.style.display = "block";
-});
-
-hoverss.addEventListener("mouseleave", () => {
-    aboutss.style.display = "none";
-});
-
+*/

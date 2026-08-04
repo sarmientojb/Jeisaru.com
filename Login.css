@@ -1,14 +1,22 @@
 
-
-/*SHOTHANDBackground-position and for the  No repeats instead of USING Background-image: url()*/
-body {cursor: pointer; margin: 0; min-height: 100vh; background: url("./PIC/jpn.jpe") center center / cover no-repeat;}
-
-.HeadTittle{text-align: center;}
-
-.Login{cursor: pointer; position: absolute; left: 50%;top: 50%; transform: translate(-50%, -50%);
-text-align: center; border-radius: 7%; border-color: black;
-padding: 20px; padding-left: 50px; padding-right: 50px;
+*{
+    box-sizing: border-box;
 }
+/*SHOTHANDBackground-position and for the  No repeats instead of USING Background-image: url()*/
+html,body {cursor: pointer; padding: 0;margin: 0; min-height: 100vh; width: 100%; background: url(./PIC/JPP.jpg) no-repeat center center fixed; background-size: cover;
+}
+
+/**/
+.NavLeft{position: fixed; top: 0;left: 0;right: 0;  width: 100%; height: 70px;  background-color:#1F51FF; text-align:right; 
+border:5px solid white; }
+
+.Login{position: absolute; width: 180px; height:40px; border-radius: 99999px; left: 10%;top: 50%; transform: translate(-50%, -50%); border:5px solid  rgb(6, 104, 224) ; box-shadow: inset; background: peachpuff;    cursor: pointer; ;
+}
+
+.NavTittle{position: absolute; left: 70%; top: -20px; width: 50%; height: 1px; transform: translate(-50%, -50%); margin:px; font-size: small; 
+}
+
+
 
 .Log
 {
@@ -19,74 +27,23 @@ padding: 20px; padding-left: 50px; padding-right: 50px;
 }
 
 .LogBox
-{
-background-color: beige; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 25%;
+{background-color: beige; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 25%;
 height: 25%; border-radius: 2%; border-color: #1F51FF; border-width: 10%; position: absolute;
 text-align: center;
 }
 
 .Close{float: right; width: 10%; cursor: pointer; font-size: x-large; color: red; border-radius: 50%;}
 
-
-.AboutBackground{display: none; position: fixed; cursor: pointer; width: 35%;  left:15%; Top:40%; transform: translate(-25%, -25%);  border-radius: 5%;}
-
-.AboutBackground2{position: fixed; background-color: blue; cursor: pointer; width: 35%;  left:12.5%; Top:70%; transform: translate(-25%, -70%); object-fit: cover; text-align: center; }
-
-.AboutBackground3{display: none; position: fixed; cursor: pointer; width: 35%;  left:10%; Top:65%; transform: translate(-25%, -25%);  }
-
-.Hover1:hover.AboutBackground{display: block; }
-.Hover2:hover.AboutBackground2{display: block; }
-.Hover3:hover.AboutBackground3{display: block; }
-
-.Intro{margin: 5%; padding: 2%; text-align: center;  color: beige;}
-/*.Intro2{list-style: none; width: 25%;background-color: #c5c9da; position: fixed; left:12.5%; Top:50%; transform: translate(-25%, -25%);  border-style: solid; border-radius: 10%; text-align: center; padding: 0%;}*/
-.Intro2{list-style: none; padding: 0%;}
-
-.GetStartedBackground{ position: fixed; width: 35%; background-color:  blue; right:-50%;  top:80%; text-align: center; height: 20%; text-align: center;; color: beige;  display: grid; grid-template-columns: repeat(4, 1fr); }
-
-
-.LetsTalkBackground{ position: fixed;  width: 50%; top:75%; right: -97vh; text-align: center; height: 20%; text-align: center;  color: beige;}
-.CreateAccount1{position: fixed; width: 35%; right:15%;  top:70%; transform: translate(-50%, -50%);  text-align: center; height: 20%; text-align: center;; color: beige; }
-.CreateAccount{background-color: antiquewhite; text-align: center;}
-
-a{text-decoration: none;}
-img{ width:30px; height: 30px; border-radius: 50%;}
-
-.DetrailsLine{display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px;}
-
-.Foot{text-align: center;  position: fixed; left: 50%; top: 90%; border: 5px rgb(5, 4, 17); border-style: solid;
-border-width:10px; transform : translate(-50%,-50%); background: #5a0202; width: 90%; height: 10%; color: white; opacity: 1.20; font-size: 70%; box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);}
-
-.HoverMain{cursor: pointer; display: grid; grid-template-columns: repeat(3, 1fr); font-size: large; margin:1%;}
-
-
-.Fhead {text-align: center; margin: 0%; padding: 0%; }
-
-
-.Bot{text-align: center;}
-
-.About{text-decoration: none;}
-
-
-@media only screen and (max-width: 760px) {.body{ cursor: pointer; width: 100%;} .Log {width: 100%;} .LogBox{width: 50%; height:50%; }
-.Foot{width: 90%;display:grid; grid-template-columns: repaet(3, 1fr); gap: 0%; margin:0%; padding: 0%; font-size: 10%;}
-
-.AboutBackground{position: fixed; cursor: pointer;  font-size: 10%; width: 35%;  left:12.5%; Top:55%; transform: translate(-25%, -25%);  border-radius: 5%;; padding: 2px;}
-
-.AboutBackground2{position: fixed;  cursor: pointer; font-size: 10%; width: 35%;  left:10.5%; Top:75%; transform: translate(-25%, -25%); }
-
-.AboutBackground3{position: fixed; cursor: pointer; font-size:10%; width: 35%; left:-30%;  Top:70%; transform: translate(-25%, -25%);  }
-.Login{padding: 2px; top: 60%;}
-.HoverMain{cursor: pointer; font-size: small; margin: 1%;}
-s
-.Hover1:hover.AboutBackground{display: block;}
-.Hover3:hover.AboutBackground3{display: block;}
-
-img{ width:15px; height: 15px; border-radius: 50%;}
-
-.CreateAccount1{position: fixed; font-size: 10%; width: 35%; right:15%;  top:80%; transform: translate(-50%, -50%);  text-align: center; height: 20%; text-align: center;; color: beige; }
-.CreateAccount{background-color: antiquewhite; text-align: center;}
+ /* portrait-only styles*/ 
+@media only screen and (min-width: 320px) and (orientation: portrait) {*{margin: 0;padding: 0;box-sizing: border-box;} html,body {cursor: pointer; padding: 0;margin: 0; min-height: 100vh; width: 100%; background: url(./PIC/JPP.jpg) no-repeat center center fixed; background-size: cover;} .Login{position: absolute; width: 180px; height:40px; border-radius: 99999px; left: 25%;top: 50%; transform: translate(-50%, -50%); border:5px solid  rgb(6, 104, 224) ; box-shadow: inset; background: peachpuff;    cursor: pointer;} .LogBox{width: 50%; height:30%; } .NavTittle{position: absolute; left: 70%; top: 10px; width: 50%; height: 1px; transform: translate(-50%, -50%); margin:px; font-size: small; 
+}
 
 }
+  /* Landscape-only styles */
+@media (min-width: 320px) and (orientation: landscape) {*{margin: 0;padding: 0; box-sizing: border-box;}  html,body {cursor: pointer; padding: 0;margin: 0; min-height: 100vh; width: 100%; background: url(./PIC/JPP.jpg) no-repeat center center fixed; background-size: cover;} .Login{position: absolute; width: 180px; height:40px; border-radius: 99999px; left: 15%;top: 50%; transform: translate(-50%, -50%); border:5px solid  rgb(6, 104, 224) ; box-shadow: inset; background: peachpuff;    cursor: pointer;}.LogBox{width: 50%; height:50%; } .NavTittle{position: absolute; left: 70%; top: 10px; width: 50%; height:1px; transform: translate(-50%, -50%); margin:px; font-size: small; 
+}
+ 
+}
+  
 
 
